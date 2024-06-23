@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/update" method="POST">
+    <input type = "text" name="id" th:value="${id}">
+    <input type = "text" name="firstName" th:value="${firstName}">
+    <input type = "text" name="lastName" th:value="${lastName}">
+    <input type = "text" name="totalPercentage" th:value="${totalPercentage}">
+    <input type = "submit">
+</form>
+</body>
+</html>
